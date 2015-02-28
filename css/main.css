@@ -7,6 +7,7 @@ ul{
 }
 a{
     text-decoration: none;
+    font-family: 'Lora', serif;
 }
 a:hover{
     text-decoration: none;
@@ -16,6 +17,30 @@ a:visited{
 }
 
 
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ///////////////////////////////////////             Navbar            //////////////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ 
 .option1{
     /*display: none;*/
+}
+
+.navbar{
+    width: 100%;
+    position: absolute;
+    margin-top: 150px;
+    display: inline;
+    text-align: center;
+}
+.navbar>ul>li{
+    display: inline;
+    text-align: center;
+    margin: 5px;
+    font-size: 1.3em;
+    font-family: 'Lora', serif;
 }
